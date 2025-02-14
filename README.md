@@ -57,27 +57,27 @@ To create an executable of the program, follow these steps:
 
 2. The executable will be generated in the `dist` folder with the name `DOTformat_encrypter.exe`
 
-## Estutura do Projeto
+## Project Structure
 
-DOTformat_encrypter/
-│
-├── build/
-├── dist/
-│   └── DOTformat_encrypter
-│       ├──internal/
-│       └──DOTformat_encrypter.exe
-├── keys/
-├── scripts/
-│   ├── encrypt.py
-│   └── decrypt.py
-├── utils/
-│   └── file_transform.py
-├── venv/
-├── DOTformat_encrypter.spec
-├── main.py
-├── README.md
-└── requirements.txt
- 
+ DOTformat_encrypter/
+ │
+ ├── build/
+ ├── dist/
+ │   └── DOTformat_encrypter
+ │       ├──internal/
+ │       └──DOTformat_encrypter.exe
+ ├── keys/
+ ├── scripts/
+ │   ├── encrypt.py
+ │   └── decrypt.py
+ ├── utils/
+ │   └── file_transform.py
+ ├── venv/
+ ├── DOTformat_encrypter.spec
+ ├── main.py
+ ├── README.md
+ └── requirements.txt
+
 ## Contribution
 
 Contributions are welcome! Feel free to open issues and pull requests for improvements and fixes.
