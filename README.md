@@ -1,6 +1,6 @@
 # DOTformat Encrypter
 
-DOTformat Encrypter is a tool for encrypting and decrypting files and folders using the AES algorithm. It allows you to select individual files or entire folders for encryption and decryption, ensuring the security of your data.
+DOTformat Encrypter is a tool for encrypting and decrypting files and folders using the AES algorithm. It allows you to select individual files or entire folders for encryption and decryption, ensuring the security of your data. The system encrypts files using the .dotf format, a proprietary format developed by me, Edynu.
 
 ## Features
 
@@ -11,7 +11,7 @@ DOTformat Encrypter is a tool for encrypting and decrypting files and folders us
 
 ## Requirements
 
-- Python 3.6 or higher
+- Python 3.6 or higher, python 3.11.9 is the recommended
 - Python libraries:
   - `tkinter`
   - `pycryptodome`
@@ -27,7 +27,7 @@ DOTformat Encrypter is a tool for encrypting and decrypting files and folders us
 2. Create a virtual environment and activate it:
     ```sh
     python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    source venv/bin/activate  # On Windows, use venv\Scripts\activate
 
 3. Install the dependencies:
     ```sh
