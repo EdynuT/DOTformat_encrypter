@@ -18,16 +18,6 @@ DOTformat Encrypter is a tool for encrypting and decrypting files and folders us
 
 - Initial release.
 
-## Greetings
-
-Hello and welcome to the DOTformat Encrypter project! I would like to extend my gratitude to the providers of the libraries used in this program:
-
-- `tkinter`: For providing the graphical user interface.
-- `pycryptodome`: For providing the cryptographic functions.
-- `pyinstaller`: For creating the executable.
-
-Thank you for checking out this tool. I hope you find it useful for securing your data.
-
 ## Features
 
 - Encrypt individual files or entire folders.
@@ -38,10 +28,6 @@ Thank you for checking out this tool. I hope you find it useful for securing you
 ## Requirements
 
 - Python 3.6 or higher, python 3.11.9 is the recommended
-- Python libraries:
-  - `tkinter`
-  - `pycryptodome`
-  - `pyinstaller` (to create the executable)
 
 ## Installation
 
@@ -76,28 +62,27 @@ To create an executable of the program, follow these steps:
     ```sh
     pyinstaller --onefile --windowed --name DOTformat_encrypter main.py
 
-2. The executable will be generated in the `dist` folder with the name `DOTformat_encrypter.exe`
+2. The executable will be generated in the `dist/DOTformat_encrypter` folder with the name `DOTformat_encrypter.exe`
 
 ## Project Structure
 
- DOTformat_encrypter/
- │
- ├── build/
- ├── dist/
- │   └── DOTformat_encrypter
- │       ├──internal/
- │       └──DOTformat_encrypter.exe
- ├── keys/
- ├── scripts/
- │   ├── encrypt.py
- │   └── decrypt.py
- ├── utils/
- │   └── file_transform.py
- ├── DOTformat_encrypter.spec
- ├── main.py
- ├── README.md
- ├── requirements.txt
- └── setup_env.py
+DOTformat_encrypter/
+│
+├── build/
+├── dist/
+│   └── DOTformat_encrypter
+│       └──internal/
+├── keys/
+├── scripts/
+│   ├── encrypt.py
+│   └── decrypt.py
+├── utils/
+│   └── file_transform.py
+├── DOTformat_encrypter.spec
+├── main.py
+├── README.md
+├── requirements.txt
+└── setup_env.py
 
 ## Contribution
 
