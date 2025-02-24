@@ -12,7 +12,7 @@ DOTformat Encrypter is a tool for encrypting and decrypting files and folders us
 ### 1.1.1
 - Minor bug fixes in key handling and derivation.
 - The 2048-byte key is now processed using SHA‑256 to derive the effective AES key.
-- Other stability improvements and corrections in file reading/writing.
+- Other stability improvements and corrections.
 
 ### 1.1.0
 - Added `setup_env.py` script for automatic environment setup.
