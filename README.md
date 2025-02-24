@@ -79,17 +79,12 @@ To create an executable of the program, follow these steps:
 
 DOTformat_encrypter/
 │
-├── build/
-├── dist/
-│   └── DOTformat_encrypter
-│       └──internal/
 ├── keys/
 ├── scripts/
 │   ├── encrypt.py
 │   └── decrypt.py
 ├── utils/
 │   └── file_transform.py
-├── DOTformat_encrypter.spec
 ├── main.py
 ├── README.md
 ├── requirements.txt

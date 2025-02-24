@@ -1,5 +1,9 @@
-import os
 import sys
+import os
+
+if hasattr(sys, '_MEIPASS'):
+    tkdnd_folder = os.path.join(sys._MEIPASS, "tkdnd")
+    os.environ["TKDND_LIBRARY"] = tkdnd_folder
 
 project_root = os.path.dirname(os.path.abspath(__file__))
 venv_path = os.path.join(project_root, 'venv', 'Lib', 'site-packages')
