@@ -14,7 +14,7 @@ DOTformat Encrypter is a tool for encrypting and decrypting files and folders us
 - Other stability improvements and corrections.
 
 #### Warning
- (Keys generated on older versions won't work in this system version)
+- Keys generated on older versions won't work in this system version
 
 ### 1.1.0
 - Added `setup_env.py` script for automatic environment setup.
